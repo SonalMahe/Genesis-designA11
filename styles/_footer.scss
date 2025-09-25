@@ -1,0 +1,23 @@
+@import 'header';
+@import 'main';
+
+.footer{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    width: 100%;
+    padding :10px;
+}
+.footerlogo{
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+
+}
+.footerlist{
+    display: flex; 
+    margin-right: 300px;
+    gap:40px;
+ }

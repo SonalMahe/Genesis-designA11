@@ -1,0 +1,60 @@
+.paragraph{
+    height: 200px;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    flex-flow: wrap;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    gap:20px;
+    font-size: 24px;
+}
+.paraalign{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+li{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 150px;
+}
+.line{
+    height:1px;
+    background-color: #D8D8D8;
+    margin: 5px;
+}
+
+.awardsection{
+    height:80px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.firstsection{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    padding: 10px;
+    margin: 10px;
+    gap: 30px;
+}
+ .navigation{
+    margin-right:170px;
+    height:80px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    gap:70px;
+}
+.navsection{
+    margin-right: 100px;
+}
+.CSSawardsection{
+    height:80px;
+    width: 100%;
+    margin-top: 20px;
+
+}
