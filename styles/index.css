@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   height: 100vh;
   width: 100%;
@@ -63,10 +68,8 @@ h6 {
 
 .navlogo {
   height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 50%;
+  margin-left: 20px;
 }
 
 .navlist {
@@ -79,6 +82,7 @@ h6 {
   margin-left: 200px;
   gap: 50px;
   padding: 20px;
+  color: blue;
 }
 
 .grid-container {
@@ -1417,6 +1421,11 @@ li {
   margin-top: 20px;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   height: 100vh;
   width: 100%;
@@ -1469,6 +1478,11 @@ h6 {
     width: 5px;
 
 }*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   height: 100vh;
   width: 100%;
@@ -1534,10 +1548,8 @@ h6 {
 
 .navlogo {
   height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 50%;
+  margin-left: 20px;
 }
 
 .navlist {
@@ -1550,6 +1562,12 @@ h6 {
   margin-left: 200px;
   gap: 50px;
   padding: 20px;
+  color: blue;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {

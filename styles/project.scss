@@ -7,6 +7,10 @@
     padding:0;
 
  }
+ html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 
 .projectcontainer{
@@ -43,7 +47,17 @@
 .imagecontainer{
     height: 500px;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     margin: 20px;
 }
+.picalign{
+    height: 500px;
+    width: 100%;
 
+}
+
+.paraalign{
+    height: 50px;
+    width: 100%;
+    margin:20px;
+}
