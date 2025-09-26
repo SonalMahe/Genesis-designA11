@@ -1,0 +1,29 @@
+@import 'header';
+@import 'footer';
+@import 'herogrid';
+
+
+
+.projectcontainer{
+    height: 80px;
+    margin-left: 30px;
+    width:50%;
+    gap:10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #111111;
+}
+
+.projectgrid-container{
+    height: 80px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    padding:10px;
+    background-color:white ;
+    box-sizing: border-box;
+    margin-right: 200px;
+    border-color: antiquewhite;
+}
