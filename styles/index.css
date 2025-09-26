@@ -1628,6 +1628,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   gap: 70px;
+  margin-left: 40px;
   height: 100px;
   width: 100%;
   padding: 10px;
@@ -1642,7 +1643,7 @@ h6 {
 }
 
 .footerlist {
-  margin-left: 300px;
+  margin-left: 200px;
   gap: 10px;
   padding: 10px;
 }

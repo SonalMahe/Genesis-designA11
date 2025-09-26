@@ -47,17 +47,29 @@
 .imagecontainer{
     height: 500px;
     width: 100%;
-    padding: 30px;
     margin: 20px;
 }
 .picalign{
     height: 500px;
     width: 100%;
-
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 
 .paraalign{
-    height: 50px;
+    height: 60px;
     width: 100%;
     margin:20px;
+}
+
+.image2container{
+    height: 500px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imageblock{
+    display: flex;
 }
