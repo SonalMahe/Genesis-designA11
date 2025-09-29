@@ -12,13 +12,16 @@
 }
 .paraalign{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
 }
 li{
+    display: flex;
+    align-items: center;
     font-weight: normal;
     font-size: 14px;
     margin-left: 150px;
+    padding: 10px;
 }
 .line{
     height:1px;
