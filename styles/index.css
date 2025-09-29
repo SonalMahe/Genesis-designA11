@@ -49,6 +49,10 @@ h6 {
   font-size: 20px;
 }
 
+.change {
+  color: blue;
+}
+
 /*.line{
     height: 2px;
     color: black;
@@ -1472,6 +1476,10 @@ h6 {
   font-size: 20px;
 }
 
+.change {
+  color: blue;
+}
+
 /*.line{
     height: 2px;
     color: black;
@@ -1527,6 +1535,10 @@ h6 {
   padding: 20px;
   font-style: bold;
   font-size: 20px;
+}
+
+.change {
+  color: blue;
 }
 
 /*.line{
@@ -1614,6 +1626,10 @@ h6 {
   padding: 20px;
   font-style: bold;
   font-size: 20px;
+}
+
+.change {
+  color: blue;
 }
 
 /*.line{
