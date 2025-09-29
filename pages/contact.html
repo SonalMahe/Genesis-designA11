@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <title>Contact</title>
 </head>
 
@@ -15,11 +14,14 @@
     <header>
         <div class="navbar">
             <div class="navlogo">
-                <img src="images/Logo.svg" alt="genesis logo ">
+                <a href="../pages/index.html">
+                  <img src="../images/Logo.svg" alt="genesis logo "></a>
             </div>
             <div class="navlist">
-                <a href="http://127.0.0.1:5500/project.html"> Project </a>
-                <a href="http://127.0.0.1:5500/contact.html"> Contact </a>
+             <nav>
+                <a href="../pages/project.html" target="_blank"> Project </a>
+                <a href="../pages/contact.html" target="_blank"> Contact </a>
+             </nav>
             </div>
         </div>
     </header>
@@ -29,10 +31,10 @@
         <div class="paragraphcontainer">
             <div class="paraalign">
                 <h1>Full set of great
-                    <br>features to make your
-                    <br>product fresh</h1>
+                   <br> features to make your
+                    product fresh</h1>
                 <p>Our favorite brands are our friends! We help them to
-                    <br> achieve their goals, they help us to stay sharp.
+                   <br>achieve their goals, they help us to stay sharp.
                 </p>
             </div>
 
@@ -44,7 +46,7 @@
                     <input type="email" id="email" name="email" placeholder="" pattern="[^ @]*@[^ @]*" required>
                     <label for="message">Message</label>
                     <input type="text" id="message" name="message" placeholder="" maxlength="10" required>
-                        <button>Submit</button>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
@@ -54,7 +56,7 @@
         <section>
              <div class="mapcontainer">
                  <div class="mapalign">
-                    <img src="images/Map.png" alt="google-map">
+                    <img src="../images/Map.png" alt="google-map">
                  </div>
              </div>
         </section>
@@ -64,15 +66,19 @@
     <footer>
         <div class="footer">
             <div class="footerlogo">
-                <img src="images/Logo.svg" alt="genesis logo ">
+                <a href="..pages/index.html">
+                   <img src="../images/Logo.svg" alt="genesis logo "></a>
             </div>
             <div class="footerlist">
                 <nav>
-                    <a href="http://127.0.0.1:5500/project.html">Project</a>
-                    <a href="http://127.0.0.1:5500/contact.html">Contact</a>
-                    <i class="fa-brands fa-dribbble"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                    <a href="../pages/project.html" target="_blank">Project</a>
+                    <a href="../pages/contact.html" target="_blank">Contact</a>
+                    <a href="https://dribble.com" target="blank">
+                      <i class="fa-brands fa-dribbble"></i></a>
+                    <a href="https://www.instagram.com/" target="blank">
+                       <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank">
+                       <i class="fa-brands fa-twitter"></i></a>
                 </nav>
             </div>
         </div>

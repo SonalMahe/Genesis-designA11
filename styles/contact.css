@@ -89,6 +89,10 @@ h6 {
   color: blue;
 }
 
+a:hover {
+  color: red;
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -180,6 +184,10 @@ h6 {
   color: blue;
 }
 
+a:hover {
+  color: red;
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -265,6 +273,10 @@ h6 {
   margin-left: 200px;
   gap: 10px;
   padding: 10px;
+}
+
+a:hover {
+  color: red;
 }
 
 .paragraphcontainer {
